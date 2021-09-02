@@ -1,0 +1,19 @@
+So it creates a student with the attributes inside the student table, however
+, in order for the view all students to work there needs to be a some way to 
+register the student for the current year, not to mention the parent needs to
+exist for the student to be registered so im not too sure how to handle that
+part. Also lol the register student view needs to change since in the DB
+there needs to be Student Type, so the admin needs to select Registered each
+time, and posibly the atribute First_Name should change along with Last_Name
+in the Parent table since that is the same as the Student attributes.
+
+Now lets talk about the staff controller...uhh the staff table *cries inside*
+,so we want to add a new staff member, that involves, teacher, admin and HOD
+buut there is no "User_Type" in the admin, teacher and hod tables so
+it will never be knonw that this is a teacher etc, since i will more than
+likely need a view model for this controller...:'( ill probably solicit
+Big man Faheems help over the weekend or friday :( please senpai :D im going to 
+take the night off cause honeslty the ammount of videos ive watched on this 
+shit is astounding and errors ive been trying to solve meanwhilke it was 
+the problem in the DB 🤣😂 lmao *sometimes cries myself to sleep :)*
+
